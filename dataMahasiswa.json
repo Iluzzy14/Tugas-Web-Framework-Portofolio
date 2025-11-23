@@ -7,11 +7,10 @@
     "nim": "L200230175",
     "prodi": "Teknik Informatika",
     "angkatan": "2023",
-    "photo_url": "https://cdn.talenta-ums.ac.id/photos/aulia.jpg",
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
     "location": "Surakarta, Jawa Tengah",
-    "portfolio_url": "https://auliapratama.com"
+    "portfolio_url": "https://drive.google.com/uc?export=download&id=1EEKy3soRlGjaMNpr-USDNdiSzBLxiMiY"
   },
 
   "skills": [
@@ -40,6 +39,15 @@
       "level": "Advanced",
       "is_main": false,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    },
+        {
+      "id": 4,
+      "name": "MySQl",
+      "category": "technical",
+      "level": "Advanced",
+      "is_main": true,
+      "years_of_experience": 3,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg"
     }
   ],
 
@@ -91,7 +99,7 @@
     },
     {
       "id": 105,
-      "title": "Web Developer UMKM",
+      "title": "Members of wisdom, politics, and public policy",
       "organization": "Bersama Kita Membangun",
       "experience_type": "project",
       "start_date": "2023-10-01",
