@@ -1,0 +1,110 @@
+{
+  "id": 12,
+  "slug": "muhammad-zidni-khoirul-rizqi-L200230175",
+
+  "profile": {
+    "full_name": "Muhammad Zidni Khoirul Rizqi",
+    "nim": "L200230175",
+    "prodi": "Teknik Informatika",
+    "angkatan": "2023",
+    "photo_url": "https://cdn.talenta-ums.ac.id/photos/aulia.jpg",
+    "headline": "Fullstack Web Developer | React & Django Enthusiast",
+    "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
+    "location": "Surakarta, Jawa Tengah",
+    "portfolio_url": "https://auliapratama.com"
+  },
+
+  "skills": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "category": "technical",
+      "level": "Intermediate",
+      "is_main": true,
+      "years_of_experience": 1,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "id": 2,
+      "name": "Django REST Framework",
+      "category": "technical",
+      "level": "Intermediate",
+      "is_main": true,
+      "years_of_experience": 1,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+    },
+    {
+      "id": 3,
+      "name": "Tailwind CSS",
+      "category": "technical",
+      "level": "Advanced",
+      "is_main": false,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    }
+  ],
+
+  "experiences": [
+    {
+      "id": 101,
+      "title": "Head of Commission 1",
+      "organization": "Dewan Perwakilan Mahasiswa UMS",
+      "experience_type": "organization",
+      "start_date": "2025-06-01",
+      "end_date": null,
+      "is_current": true,
+      "description": "Berkoordinasi secara aktif dalam penerapan kebijakan baru guna mendorong efisiensi kerja dan meningkatkan produktivitas tim secara keseluruhan.",
+      "image_url": "https://cdn.example.com/company/digitalsolusi.png"
+    },
+    {
+      "id": 102,
+      "title": "Members of Interests and Talents",
+      "organization": "Himpunan Mahasiswa Informatika UMS",
+      "experience_type": "organization",
+      "start_date": "2023-12-01",
+      "end_date": null,
+      "is_current": true,
+      "description": "Berkolaborasi dalam pelaksanaan program kerja organisasi untuk memastikan implementasi yang efektif dan hasil yang sukses.",
+      "image_url": "https://cdn.example.com/logo/ukm-informatika.png"
+    },
+    {
+      "id": 103,
+      "title": "FullStack Developer",
+      "organization": "Solusi Kode.co",
+      "experience_type": "internship",
+      "start_date": "2025-10-01",
+      "end_date": null,
+      "is_current": true,
+      "description": "Membangun Website API backend UMKM menggunakan DRF dan PostgreSQL dengan tampilan yang menarik.",
+      "technologies": ["Django", "DRF", "PostgreSQL", "ReactJS"],
+      "image_url": "https://cdn.example.com/projects/umkm-inventory.png"
+    },
+    {
+      "id": 104,
+      "title": "Members of wisdom, politics, and public policy",
+      "organization": "IMM Adam Malik FKI",
+      "experience_type": "organization",
+      "start_date": "2024-10-01",
+      "end_date": null,
+      "is_current": true,
+      "description": "Bekerja sama dalam tim untuk membangun dan menjalin hubungan strategis dengan pihak eksternal terkait.",
+      "image_url": "https://cdn.example.com/projects/umkm-inventory.png"
+    },
+    {
+      "id": 105,
+      "title": "Members of wisdom, politics, and public policy",
+      "organization": "Bersama Kita Membangun",
+      "experience_type": "project",
+      "start_date": "2023-10-01",
+      "end_date": "2024-12-30",
+      "is_current": false,
+      "description": "Membangun sebuah website untuk perkembangan bangsa.",
+      "technologies": ["Django", "DRF","ReactJS"],
+      "image_url": "https://cdn.example.com/projects/umkm-inventory.png"
+    }
+  ],
+
+  "statistics": {
+    "views_count": 127,
+    "profile_complete_percent": 92
+  }
+}
