@@ -20,7 +20,7 @@ const ScrollToTop = ({ isDarkMode }) => {
 
   const scrollToTop = () => {
     window.scrollTo({
-      top: 41,
+      top: 0,
       behavior: "smooth"
     });
   };

@@ -29,7 +29,7 @@ const Skills = ({ isDarkMode }) => {
     const trackClass = isDarkMode ? "bg-gray-700" : "bg-gray-200";
 
     return (
-        <section id="skills" className="max-w-6xl mx-auto mb-8 px-4 scroll-mt-20">
+        <section id="skills" className="max-w-4xl mx-auto mb-8 px-4 scroll-mt-20">
             <div className={`${containerClass} border rounded-2xl shadow-xl p-6 transition-colors duration-300`}>
                 <div className="flex items-center gap-3 mb-6">
                     <Cpu className="text-blue-500" size={24} />

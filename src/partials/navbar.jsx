@@ -34,7 +34,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
           <div className="flex items-center">
             {/* Logo clicks scroll to top smoothly */}
             <button 
-                onClick={() => window.scrollTo({ top: 41, behavior: 'smooth' })}
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className="text-xl font-bold bg-linear-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
             >
               ZidniKR

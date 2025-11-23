@@ -20,7 +20,7 @@ const Profile = ({ isDarkMode }) => {
         : "bg-white/20 border-white/20 text-white";
 
     return (
-        <section id="profile" className="max-w-6xl mx-auto mt-8 mb-8 px-4 scroll-mt-20">
+        <section id="profile" className="max-w-4xl mx-auto -mt-20 mb-8 px-4 scroll-mt-20">
             <div className={`${cardClass} rounded-2xl shadow-xl p-6 text-white border relative overflow-hidden transition-colors duration-500`}>
                 {/* Decorative element */}
                 <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white rounded-full blur-3xl opacity-10"></div>
