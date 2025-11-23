@@ -67,8 +67,8 @@ export default function Profile() {
                         
                         {/* Tombol Portfolio */}
                         <a
-                            href="https://drive.google.com/file/d/1LnNw9yuCPnmTWYGAOyDnljrlzn2_vqmb/view?usp=drive_link"
-                            target="_blank"
+                            href="https://drive.google.com/uc?export=download&id=1EEKy3soRlGjaMNpr-USDNdiSzBLxiMiY"
+                            download
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 mt-4 bg-white text-blue-600 px-5 py-2 rounded-lg text-sm font-semibold shadow-sm hover:bg-gray-50 transition-colors"
                         >
