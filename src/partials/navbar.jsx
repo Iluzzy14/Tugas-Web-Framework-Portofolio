@@ -29,7 +29,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
 
   return (
     <nav className={`sticky top-0 z-50 backdrop-blur-md border-b transition-colors duration-300 ${isDarkMode ? "bg-gray-900/80 border-gray-800" : "bg-white/80 border-gray-200"}`}>
-      <div className="w-full md:w-3/4 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full md:w-4/5 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             {/* Logo clicks scroll to top smoothly */}

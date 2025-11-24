@@ -52,7 +52,7 @@ const Experience = ({ isDarkMode }) => {
   const tagClass = isDarkMode ? "bg-gray-800 text-gray-300 border-gray-700 hover:text-white" : "bg-gray-100 text-gray-600 border-gray-200 hover:bg-gray-200";
 
   return (
-    <section id="experience" className="max-w-4xl mx-auto mb-10 px-4 scroll-mt-20">
+    <section id="experience" className="max-w-7xl mx-auto mb-6 mt-20 scroll-mt-25">
       <div className={`${containerClass} border rounded-2xl shadow-xl p-6 transition-colors duration-300`}>
         <div className="flex items-center gap-3 mb-8">
             <Briefcase className="text-blue-500" size={24} />

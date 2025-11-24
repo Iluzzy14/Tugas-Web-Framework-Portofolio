@@ -4,7 +4,7 @@ import dataMahasiswa from "../../dataMahasiswa.json"
 
 const Footer = ({ isDarkMode }) => {
     return (
-        <footer className={`border-t mt-12 py-8 transition-colors duration-300 ${isDarkMode ? "bg-gray-900 border-gray-800 text-gray-500" : "bg-gray-50 border-gray-200 text-gray-600"}`}>
+        <footer className={`border-t py-8 transition-colors duration-300 ${isDarkMode ? "bg-gray-900 border-gray-800 text-gray-500" : "bg-gray-50 border-gray-200 text-gray-600"}`}>
             <div className="max-w-4xl mx-auto px-4 text-center">
                 <div className="flex justify-center space-x-6 mb-4">
                     <a href="https://github.com/zidniee" target="_blank" className={`transition-colors ${isDarkMode ? "hover:text-white" : "hover:text-blue-600"}`}>

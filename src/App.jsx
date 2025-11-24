@@ -3,7 +3,7 @@ import Experiences from './components/Experiences';
 import Skills from './components/Skills';
 import Navbar from './partials/navbar';
 import Footer from './partials/footer';
-import ScrollToTop from './partials/ScrollToUP';
+import ScrollToTop from './partials/ScrollToTop';
 import { useEffect, useState } from 'react';
 
 function App() {

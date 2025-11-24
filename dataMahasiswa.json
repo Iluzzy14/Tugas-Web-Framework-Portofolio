@@ -27,7 +27,7 @@
       "id": 2,
       "name": "Django REST Framework",
       "category": "technical",
-      "level": "Intermediate",
+      "level": "beginner",
       "is_main": true,
       "years_of_experience": 1,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
