@@ -4,7 +4,7 @@ import { ArrowUp } from "lucide-react";
 const ScrollToTop = ({ isDarkMode }) => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Show button when page is scrolled down
+  // menampilkan Button saat di scroll
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 300) {

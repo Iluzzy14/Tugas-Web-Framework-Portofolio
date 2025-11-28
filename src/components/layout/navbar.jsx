@@ -44,9 +44,21 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-baseline space-x-4">
-              <a href="#profile" onClick={(e) => handleNavClick(e, 'profile')} className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>Profile</a>
-              <a href="#skills" onClick={(e) => handleNavClick(e, 'skills')} className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>Skills</a>
-              <a href="#experience" onClick={(e) => handleNavClick(e, 'experience')} className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>Experience</a>
+              <a href="#profile" 
+                onClick={(e) => handleNavClick(e, 'profile')}
+                className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>
+                Profile
+              </a>
+              <a href="#skills"
+                onClick={(e) => handleNavClick(e, 'skills')}
+                className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>
+                Skills
+              </a>
+              <a href="#experience"
+                onClick={(e) => handleNavClick(e, 'experience')}
+                className={`${navLinkClass} px-3 py-2 rounded-md text-sm font-medium transition-colors`}>
+                Experience
+              </a>
             </div>
             
             {/* Theme Toggle Button */}
