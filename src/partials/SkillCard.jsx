@@ -1,5 +1,3 @@
-import { Terminal, Code, Database } from "lucide-react";
-
 const SkillCard = ({ isDarkMode, skills }) => {
 
     const getLevelPercentage = (level = "") => {

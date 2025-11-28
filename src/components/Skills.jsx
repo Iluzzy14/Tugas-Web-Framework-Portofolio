@@ -4,10 +4,8 @@ import dataMahasiswa from "../../dataMahasiswa.json";
 
 const Skills = ({ isDarkMode }) => {
     // Theme Styles
-    const containerClass = isDarkMode ? "bg-gray-800 border-gray-700" : "bg-white border-gray-200";
     const titleClass = isDarkMode ? "text-white" : "text-gray-800";
     const skills = dataMahasiswa.skills;
-
     const cardClass = isDarkMode 
         ? "bg-gradient-to-r from-blue-900 to-slate-900 border-blue-800/50" 
         : "bg-gradient-to-r from-blue-500 to-cyan-500 border-blue-400/20";

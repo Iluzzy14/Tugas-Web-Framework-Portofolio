@@ -1,4 +1,4 @@
-import profileImg from "../assets/MyProfile.png";
+// import profileImg from "../assets/MyProfile.png";
 import dataMahasiswa from "../../dataMahasiswa.json";
 import {  
   MapPin, 
@@ -145,7 +145,7 @@ const Profile = ({ isDarkMode }) => {
             {/* Image Container */}
             <div className={`relative w-full h-full rounded-[1.9rem] overflow-hidden border-4 shadow-2xl transition-colors duration-300 ${imgBg} ${imgBorder}`}>
                 <img 
-                  src={profileImg} 
+                  src={data.photo_url} 
                   alt={data.full_name} 
                   className="w-full h-12/10 object-cover transform group-hover:scale-105 transition duration-700 ease-out"
                   onError={() => setImgError(true)}
